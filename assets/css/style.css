@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Press+Start+2P|Source+Sans+Pro:200');
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background: #9E9E9E;
+  /*font-family: 'Indie Flower', cursive;
+    font-family: 'Oswald', sans-serif;*/
+    font-family: 'Lobster', cursive;
+font-family: 'Press Start 2P', cursive;
+  color: #2B2D42;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  margin: 20px auto;
+}
+
+h2 {
+
+  font-size: 30px;
+  margin: 20px auto;
+}
+.win{
+  color: #4CE32D;
+}
+.normal{
+  color: #000000;
+}
+.btn {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  display: block;
+  margin: 30px auto;
+  padding: 10px 30px;
+  border-radius: 4px;
+  background-color: #2196F3;
+  color: #ecf0f1;
+  transition: background-color .3s;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #27ae60;
+}
+
+.container {
+  background: #009688;
+  min-width: 400px;
+  width: 30%;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container>div {
+  background: #FF9800;
+  width: 33.33%;
+  height: 100px;
+  border: 3px solid #8D99AE;
+  font-size: 75px;
+  color: #FFFFFF;
+  line-height: 100px;
+}
